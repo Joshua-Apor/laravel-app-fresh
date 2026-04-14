@@ -30,7 +30,7 @@ class User extends Authenticatable
         ];
     }
 
-    protected $fillable = [
+        protected $fillable = [
         'first_name',
         'last_name',
         'middle_name',
@@ -39,5 +39,6 @@ class User extends Authenticatable
         'address',
         'contact_number',
         'email',
+        'password',
     ];
 }
